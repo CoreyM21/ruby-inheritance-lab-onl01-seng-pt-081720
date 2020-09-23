@@ -5,7 +5,7 @@ class Student < User
 
   def initialize
     @knowledge = []
-    binding.pry 
+    # binding.pry 
   end
   
   def learn(string)
